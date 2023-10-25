@@ -30,8 +30,16 @@ public class Main {
 //
 //      Create a function that will convert the first letter of each word in the string to upper case
 //      (e.g. "hello world" becomes "Hello World").
+        System.out.println("Task nr 5");
+        String exampleString5 = "hello world example text";
+        System.out.println(Methods.firstCapital(exampleString5));
 //
 //      Create a function that will check whether two strings are anagrams (consist of the same letters).
+        System.out.println("Task nr 6");
+        String exampleString6 = "arbuz";
+        String exampleString7 = "burza";
+        System.out.println("Are strings " + exampleString6 + " and " + exampleString7 + " anagrams?: " +
+                          isAnagram(exampleString6,exampleString7));
 //
 //      Create a function that will remove all occurrences of a specific character from a string.
 //

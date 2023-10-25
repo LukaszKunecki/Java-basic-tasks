@@ -24,4 +24,19 @@ public class Methods {
         return new StringBuilder(text).reverse().toString().equals(text);
     }
 
+    public static String firstCapital(String text){
+        String[] splitedText = text.split(" ");
+        StringBuilder capitalString = new StringBuilder();
+        for (String word : splitedText) {
+            char c = Character.toUpperCase(word.charAt(0));
+            capitalString.append(c).append(word.substring(1)).append(" ");
+        }
+        return capitalString.toString().trim();
+    }
+
+    public static boolean isAnagram(String text, String text2){
+        
+
+    }
+
 }
