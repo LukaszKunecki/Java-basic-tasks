@@ -1,15 +1,32 @@
 package Tasks;
 
+
+import Implementations.Methods;
+import org.junit.jupiter.api.Test;
+
 public class Main {
     public static void main(String[] args) {
 
 //      Create a function that will reverse the string (e.g. "Hello" becomes "olleH").
-//
+        System.out.println("Task nr 1");
+        String exampleString = "Hello";
+        System.out.println(Methods.reverseString(exampleString));
+
 //      Create a function that will count the number of occurrences of a given character in a string
-//
+        System.out.println("Task nr 2");
+        char targetChar = 'a';
+        String exampleString2 = "dsafdgadsfdgfaaafdsa";
+        System.out.println(Methods.occuranceNumber(exampleString2,targetChar));
+
 //      Create a function that will remove spaces from a given string.
-//
+        System.out.println("Task nr 3");
+        String exampleString3 = "This is test string with spaces";
+        System.out.println(Methods.removeSpaces(exampleString3));
+
 //      Create a function that will check whether the string is a palindrome.
+        System.out.println("Task nr 4");
+        String exampleString4 = "kajak";
+        System.out.println("Is word "+ exampleString4 +" a palindrome?: "+ Methods.isPalindrome(exampleString4));
 //
 //      Create a function that will convert the first letter of each word in the string to upper case
 //      (e.g. "hello world" becomes "Hello World").
