@@ -2,7 +2,9 @@ package Tasks;
 
 
 import Implementations.Methods;
-import org.junit.jupiter.api.Test;
+
+import java.util.Arrays;
+
 
 public class Main {
     public static void main(String[] args) {
@@ -39,13 +41,24 @@ public class Main {
         String exampleString6 = "arbuz";
         String exampleString7 = "burza";
         System.out.println("Are strings " + exampleString6 + " and " + exampleString7 + " anagrams?: " +
-                          isAnagram(exampleString6,exampleString7));
+                           Methods.isAnagram(exampleString6,exampleString7));
 //
 //      Create a function that will remove all occurrences of a specific character from a string.
+        System.out.println("Task nr 7");
+        char targetChar1 = 'a';
+        String exampleString8 = "Example text";
+        System.out.println(Methods.removeChar(exampleString8, targetChar1));
 //
 //      Create a function that will detect whether a string contains only numbers.
-//
+        System.out.println("Task nr 8");
+        String exampleString9 = "6543567543";
+        System.out.println(Methods.containsDigit(exampleString9));
+
 //      Create a function that will split a string based on a specified separator and return an array of parts.
+        System.out.println("Task nr 9");
+        String exampleString10 = "Hello world example string";
+        String separator = " ";
+        System.out.println(Arrays.toString(Methods.splitString(exampleString10, separator)));
 //
 //      Create a function that will convert all letters in a string to lowercase.
 //
