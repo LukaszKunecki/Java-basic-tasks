@@ -68,4 +68,25 @@ public class Methods {
         return stringsArray;
     }
 
+    public static String lowerCase(String text){
+        return text.toLowerCase();
+    }
+
+    public static String reverseOrder(String text){
+        String[] strArr = text.split(" ");
+        StringBuilder newStr = new StringBuilder();
+        for (int i = strArr.length-1; i >= 0; i-- ){
+            newStr.append(strArr[i]).append(" ");
+        }
+        return newStr.toString().trim();
+    }
+
+    public static String specialChars(String text){
+        return text.replaceAll("[^a-zA-Z0-9]", "");
+    }
+
+    public static char nonRepeated(String text){
+
+    }
+
 }

@@ -61,12 +61,25 @@ public class Main {
         System.out.println(Arrays.toString(Methods.splitString(exampleString10, separator)));
 //
 //      Create a function that will convert all letters in a string to lowercase.
-//
-//      Create a function that returns the reversed order of words in a sentence (e.g. "Hello World" becomes "World Hello").
+        System.out.println("Task nr 10");
+        String exampleString11 = "HELLo WorLD";
+        System.out.println(Methods.lowerCase(exampleString11));
+
+//      Create a function that returns the reversed order of words in a sentence
+//      (e.g. "Hello World" becomes "World Hello").
+        System.out.println("Task nr 11");
+        String exampleString12 = "Hello World";
+        System.out.println(Methods.reverseOrder(exampleString12));
 //
 //      Create a function that will remove all special characters (e.g. periods, commas) from a string.
+        System.out.println("Task nr 12");
+        String exampleString13 = "Hell!o^ ^Wo*rl#d";
+        System.out.println(Methods.specialChars(exampleString13));
 //
 //      Create a function that returns the first non-repeating character in a string.
+        System.out.println("Task nr 13");
+        String exampleString14 = "abcabcgabcdef";
+        System.out.println(Methods.nonRepeated(exampleString14));
 //
 //      Create a function that will remove all consonants from a string.
 
