@@ -86,7 +86,19 @@ public class Methods {
     }
 
     public static char nonRepeated(String text){
+        int[] nonrepeated = new int[256];
+        for (char letter : text.toCharArray()) {
+            nonrepeated[letter]++;
+        }
 
+        for (char letter : text.toCharArray()) {
+            if (nonrepeated[letter] == 1) {
+                return letter;
+            }
+        }
+        return '0';
     }
+
+
 
 }

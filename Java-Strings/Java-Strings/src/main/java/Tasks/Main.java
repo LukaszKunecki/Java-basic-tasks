@@ -82,6 +82,7 @@ public class Main {
         System.out.println(Methods.nonRepeated(exampleString14));
 //
 //      Create a function that will remove all consonants from a string.
+        System.out.println("Task nr 14");
 
     }
 }
