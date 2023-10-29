@@ -99,6 +99,20 @@ public class Methods {
         return '0';
     }
 
+    public static String isConson(String text){
+    StringBuilder newString = new StringBuilder();
+        for (char c : text.toCharArray()) {
+        if (isVovel(c)) {
+            newString.append(c);
+            }
+
+        }
+        return newString.toString();
+    }
+    public static boolean isVovel(char c){
+        return "AEIOUaeiou".indexOf(c) !=-1;
+    }
+
 
 
 }

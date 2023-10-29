@@ -83,6 +83,7 @@ public class Main {
 //
 //      Create a function that will remove all consonants from a string.
         System.out.println("Task nr 14");
-
+        String exampleString15 = "Hello world";
+        System.out.println(Methods.isConson(exampleString15));
     }
 }
