@@ -34,6 +34,8 @@ public class Main {
         System.out.println(Methods.isPresent(exampleArray5, targetInteger));
 
 //      Remove duplicates from a given integer array.
+        System.out.println("Task nr 6");
+
 
 //      Sort an array of integers in ascending order.
 
