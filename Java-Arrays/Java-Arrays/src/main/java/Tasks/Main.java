@@ -35,7 +35,7 @@ public class Main {
 
 //      Remove duplicates from a given integer array.
         System.out.println("Task nr 6");
-
+        int[] exampleArray6 = {5,3,7,6,5,9,8,2,1,4,3,6,7};
 
 //      Sort an array of integers in ascending order.
 
