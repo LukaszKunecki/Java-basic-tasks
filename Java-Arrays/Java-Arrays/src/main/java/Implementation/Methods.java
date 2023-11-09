@@ -1,6 +1,7 @@
 package Implementation;
 
 import java.util.Arrays;
+import java.util.Collections;
 
 public class Methods {
 
@@ -45,6 +46,10 @@ public class Methods {
             }
         }
         return false;
+    }
+
+    public static int[] duplicates(int[] array){
+        
     }
 
 
