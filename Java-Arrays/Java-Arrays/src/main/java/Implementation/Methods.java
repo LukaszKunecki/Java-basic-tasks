@@ -1,7 +1,6 @@
 package Implementation;
 
-import java.util.Arrays;
-import java.util.Collections;
+import java.util.*;
 
 public class Methods {
 
@@ -48,8 +47,12 @@ public class Methods {
         return false;
     }
 
-    public static int[] duplicates(int[] array){
-        
+    public static Set<Integer> duplicates(int[] array){
+        Set<Integer> newSet = new HashSet<>();
+        for (int element:array) {
+            newSet.add(element);
+        }
+        return newSet;
     }
 
 
