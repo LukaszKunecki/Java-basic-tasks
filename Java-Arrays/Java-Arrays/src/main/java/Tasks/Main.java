@@ -35,16 +35,27 @@ public class Main {
 
 //      Remove duplicates from a given integer array.
         System.out.println("Task nr 6");
-        int[] exampleArray6 = {5,3,7,6,5,9,8,2,1,4,3,6,7};
+        int[] exampleArray6 = {5,3,7,6,22,5,9,8,2,1,4,3,6,7,16};
         System.out.println(Methods.duplicates(exampleArray6));
 
 //      Sort an array of integers in ascending order.
+        System.out.println("Task nr 7");
+        int[] exampleArray7 = {5,3,7,6,22,5,9,8,2,1,4,3,6,7,16};
+        System.out.println(Arrays.toString(Methods.sortAsc(exampleArray7)));
 
 //      Sort the caption array alphabetically.
+        System.out.println("Task nr 8");
+        String[] exampleArray8 = {"Hello", "Wrold", "Example", "Array"};
+        System.out.println(Arrays.toString(Methods.sortAlphab(exampleArray8)));
 
 //      Move all zeros to the end of the integer array.
+        System.out.println("Task nr 9");
+        int [] exampleArray9 = {5,3,0,56,8,0,9,1,3,0};
+        System.out.println(Arrays.toString(Methods.zeroToStart(exampleArray9)));
 
 //      Find the most frequently occurring element in a given array.
-
+        System.out.println("Task nr 10");
+        int [] exampleArray10 = {5,3,0,56,8,0,9,1,3,0};
+        System.out.println(Methods.mostFreq(exampleArray10));
     }
 }
