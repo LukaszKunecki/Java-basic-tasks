@@ -27,4 +27,14 @@ public class Methods {
         return list;
     }
 
+    public static Set<Integer> removeEven (Set<Integer> set){
+        Set<Integer> newexampleset = new HashSet<>();
+        for (int element : set) {
+            if (element % 2 != 0){
+                newexampleset.add(element);
+            }
+        }
+        return newexampleset;
+    }
+
 }

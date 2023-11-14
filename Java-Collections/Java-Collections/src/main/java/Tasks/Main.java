@@ -25,6 +25,9 @@ public class Main {
         System.out.println(Methods.sortnames(namesList));
 //
 //      Create a set of integers. Remove all even numbers from it.
+        System.out.println("Task nr 4");
+        Set<Integer> exampleSet = new HashSet<>(List.of(1,5,7,3,8,5,2,11,4,24));
+        System.out.println(Methods.removeEven(exampleSet));
 //
 //      Create a map that assigns products to their prices.
 //      Write code that checks whether a given product is on the map (if it is available) based on the product name.
