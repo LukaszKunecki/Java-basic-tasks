@@ -1,9 +1,6 @@
 package Implementations;
 
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 public class Methods {
 
@@ -26,7 +23,8 @@ public class Methods {
     }
 
     public static List<String> sortnames(List<String> list){
-
+        Collections.sort(list);
+        return list;
     }
 
 }
