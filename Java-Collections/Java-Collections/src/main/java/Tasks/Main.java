@@ -31,6 +31,8 @@ public class Main {
 //
 //      Create a map that assigns products to their prices.
 //      Write code that checks whether a given product is on the map (if it is available) based on the product name.
+        System.out.println("Task nr 5");
+        Map<String, Integer> productMap = new HashMap<>(){{put("Apples", 10);put("Oranges", 21);}};
 
     }
 }
