@@ -37,4 +37,13 @@ public class Methods {
         return newexampleset;
     }
 
+    public static boolean isProductPresent(Map<String, Integer> mapa, String productName){
+        for (Map.Entry<String,Integer> entry : mapa.entrySet()) {
+            if (entry.getKey().equals(productName)){
+                return true;
+            }
+        }
+        return false;
+    }
+
 }
