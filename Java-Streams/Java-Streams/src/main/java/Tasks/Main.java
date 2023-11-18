@@ -98,24 +98,10 @@ public class Main {
         List<String> examplelist16 = new ArrayList<>(List.of("Hello", "World", "Test", "Hello", "World", "Element"));
         System.out.println(Methods.concatenateStringsNoSeparator(examplelist16));
 
-//      Write a function that, using the Java Stream API, calculates the sum and product of elements
-//      in a given collection of integers.
-        System.out.println("Task nr 17");
-
-//      Write a function that, using the Java Stream API, selects only unique elements from a given list.
-        System.out.println("Task nr 18");
-
-//      Write a function that, using the Java Stream API, filters elements in a given collection
-//      that meet a specific condition, for example, selects only numbers greater than 10.
-        System.out.println("Task nr 19");
-
 //      Write a function that, using the Java Stream API, sorts strings in a given collection by their length.
-        System.out.println("Task nr 20");
-
-//      Write a function that, using the Java Stream API, concatenates strings from a given list
-//      into one long string, adding a separator between them.
-        System.out.println("Task nr 21");
-
+        System.out.println("Task nr 17");
+        List<String> examplelist17 = new ArrayList<>(List.of("Hello", "World", "Test", "Hello", "World", "Element"));
+        System.out.println(Methods.sortByLength(examplelist17));
 
     }
 }

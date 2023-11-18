@@ -71,4 +71,8 @@ public class Methods {
         return list.stream().collect(Collectors.joining());
     }
 
+    public static List<String> sortByLength (List<String> list){
+        return list.stream().sorted(Comparator.comparing(String::length)).toList();
+    }
+
 }
