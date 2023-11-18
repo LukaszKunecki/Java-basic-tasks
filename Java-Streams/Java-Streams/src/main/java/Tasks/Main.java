@@ -27,12 +27,18 @@ public class Main {
 
 //      Write a function that, using the Stream API, finds the longest string in a given collection of strings.
         System.out.println("Task nr 4");
+        List<String> examplelist4 = new ArrayList<>(List.of("Hello", "World", "Test", "List", "Str", "Developer"));
+        System.out.println(Methods.longestStr(examplelist4));
 
 //      Write a function that, using the Stream API, groups strings from a given list by their length.
         System.out.println("Task nr 5");
+        List<String> examplelist5 = new ArrayList<>(List.of("Hello", "World", "Test", "List", "Str", "Developer"));
+        System.out.println(Methods.groupStrings(examplelist5));
 
 //      Write a function that, using the Stream API, reverses strings in a given collection of strings.
         System.out.println("Task nr 6");
+        List<String> examplelist6 = new ArrayList<>(List.of("Hello", "World", "Test"));
+        System.out.println(Methods.reverseString(examplelist6));
 
 //      Write a function that, using the Stream API, sorts integers in a given list in descending order.
         System.out.println("Task nr 7");
